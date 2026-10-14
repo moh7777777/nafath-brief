@@ -15,14 +15,16 @@ Resource: NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0) - 
 Android’s runtime permission model forces the application to request sensitive permissions dynamically at runtime instead of installation. The application must request access when it explicitly needs to utilize a protected API resource, like biometric hardware or camera streams.
 Resource: Android Developers Guide: Request app permissions - https://android.com
 ## Networking
-
-
+DNS over HTTPS (DoH) encrypts domain name lookups using standard HTTPS sessions. It protects citizens by preventing network eavesdroppers from viewing or altering their DNS queries, but it does not conceal the target server's IP address or the data payloads.
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://rfc-editor.org
 ## Cybersecurity
-
+An authentication method is phishing-resistant if it cryptographically binds the credential to the specific origin domain of the relying service, preventing interception by proxy websites. Multi-factor methods that utilize FIDO2/WebAuthn hardware keys or cryptographic passkeys qualify. Conversely, legacy multi-factor methods such as SMS-based one-time passwords, mobile push notifications, and standard authenticator app time-based tokens are vulnerable to intercepting proxies and do not qualify.
+Resource: NIST Special Publication 800-63B: Digital Identity Guidelines - https://nist.gov
 
 ## Data
 
-
+Under Oman's Personal Data Protection Law (Royal Decree 6/2022), the authority must obtain explicit written consent before data processing, appoint a dedicated data protection officer, report data breaches within 72 hours, and delete citizen records immediately after processing concludes.
+Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law - https://decree.om
 ## Misconception in My Track
 
 
