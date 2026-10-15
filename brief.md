@@ -8,12 +8,23 @@ The NAFATH-V1 project The unified login platform serves as the core of governmen
 
 ## Software
 
+In the world of modern authentication and API security, two protocols often get mixed up — OAuth 2.0 and OpenID Connect (OIDC). They sound similar, share the same foundation, and even use the same endpoints — but they solve different problems.
+OAuth 2.0 is an authorization framework — it’s all about granting access
+OpenID Connect is an authentication protocol built on top of OAuth 2.0
+OpenID Connect → The security desk checks your ID badge to verify who you are (authentication).
+OAuth 2.0 → You use a keycard to open specific rooms you’re authorized to access (authorization).
+OAuth 2.0 vs OpenID Connect — The Real Difference Explained  https://www.linkedin.com/pulse/oauth-20-vs-openid-connect-real-difference-explained-pandian-aspqc
+https://www.oloid.com/blog/oidc-vs-oauth
 
 
 ## AI
 
+Before going live, the authority must manage socio-technical risks outlined in the NIST AI Risk Management Framework 1.0. Key characteristics include ensuring the system is valid and reliable to minimize false positives, secure and resilient against adversarial extraction attacks, and fair with managed bias to prevent discriminatory transaction flagging.
+Resource: NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0) - https://nist.gov  https://www.paloaltonetworks.com/cyberpedia/ai-risks-and-benefits-in-cybersecurity
 
 ## Mobile
+Android’s runtime permission model forces the application to request sensitive permissions dynamically at runtime instead of installation. The application must request access when it explicitly needs to utilize a protected API resource, like biometric hardware or camera streams.
+Resource: Android Developers Guide: Request app permissions - https://android.com    https://academy.hsoub.com/programming/android
 
 ## Networking
 
