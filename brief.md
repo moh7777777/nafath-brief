@@ -41,5 +41,12 @@ Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law - https:/
 
 ## Misconception in My Track
 
+## Misconception in My Track
+A common misconception regarding DNS over HTTPS is that transport channel encryption automatically ensures absolute data authentication and verification. In reality, encryption only secures the transit link between the client and the resolver. Section 1.4.9 of the primary specification text proves that transport layer security remains entirely independent from DNSSEC verification. Falsified records or compromised upstream sources will still deliver malicious answers straight through an encrypted tunnel unless cryptographic signature validation is explicitly enforced.
+
+he specific notion that "simply having multi-factor authentication (MFA) of any kind equates to complete protection against compromise" is a misconception
 
 ## Open Question
+What explicit configuration protocols will the authority implement to securely bootstrap the initial connection to the designated DoH server without creating plain-text lookup loops?
+Can the Authority not allow numbers to be withdrawn from users after their expiration date?
+How to detect malicious links even when they appear legitimate
